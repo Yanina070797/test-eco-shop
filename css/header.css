@@ -1,0 +1,107 @@
+.header {
+    border-bottom: 1px solid #658c4a;
+
+}
+
+.header .sale-bar {
+    background: linear-gradient(90deg, #658c4a 0%, #89bc68 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.header .sale-bar-text {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33333;
+    text-align: center;
+    color: #fff;
+    padding: 12px 0;
+}
+
+.header .sale-bar-svg {
+    fill: #fff;
+}
+
+.header .navigation {
+    display: none;
+}
+
+.header .middle-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 0;
+}
+
+.header .search-form {
+    order: 1;
+    position: relative;
+
+}
+
+.header .burger-menu-button {
+    order: 2;
+}
+
+.header .search-input {
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    width: 296px;
+    height: 32px;
+    padding-left: 36px;
+}
+
+.header .header-search-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(12px, 8px);
+}
+
+@media (min-width:1440px) {
+    .header .navigation {
+        display: block;
+    }
+
+    .header .nav-list {
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header .nav-item {
+        padding: 24px 16px;
+    }
+
+    .header .nav-link {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        color: #333;
+    }
+
+    .header .middle-header {
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 16px 0;
+    }
+
+    .header .search-form {
+        order: 0;
+    }
+
+    .header .burger-menu-button {
+        display: none;
+    }
+
+    .header .search-input {
+        width: 880px;
+
+    }
+}

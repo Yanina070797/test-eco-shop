@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eco-shop</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="sale-bar">
+          <p class="sale-bar-text">
+            Free Shipping with minimum purchase Rp250.000
+          </p>
+          <button class="sale-bar-ahead-button" type="button">
+            <svg class="sale-bar-svg" width="16" height="16">
+              <use href="./images/icons.svg#icon-ahead"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="middle-header">
+          <img
+            class="header-logo"
+            srcset="./images/logo.png 1x, ./images/logo@2.png 2x"
+            src="./images/logo.png"
+            width="95"
+            height="48"
+          />
+
+          <form
+            name="search-form"
+            class="search-form"
+            autocomplete="off"
+            novalidate
+          >
+            <label for="search" class="sr-only">Search</label>
+            <input
+              name="search-input"
+              class="search-input"
+              type="search"
+              id="search"
+              placeholder="Search here..."
+            />
+            <svg class="header-search-svg" width="16" height="16">
+              <use href="./images/icons.svg#icon-search"></use>
+            </svg>
+          </form>
+
+          <div class="account-and-basket-buttons">
+            <button type="button" class="header-account-button">
+              <svg width="32" height="32">
+                <use href="./images/icons.svg#icon-account"></use>
+              </svg>
+            </button>
+            <button type="button" class="header-basket-button">
+              <svg width="32" height="32">
+                <use href="./images/icons.svg#icon-basket"></use>
+              </svg>
+            </button>
+          </div>
+
+          <button type="button" class="burger-menu-button">
+            <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-burger"></use>
+            </svg>
+          </button>
+        </div>
+
+        <nav class="navigation">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#" class="nav-link">NEW!</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Clothing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Bath</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Bedding</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home Goods</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Furniture</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Footwear</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Accesories</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero" id="hero">
+        <div class="container"></div>
+      </section>
+      <section class="category" id="category">
+        <div class="container"></div>
+      </section>
+      <section class="products" id="products">
+        <div class="container"></div>
+      </section>
+      <section class="new-arrival" id="new-arrival">
+        <div class="container"></div>
+      </section>
+      <section class="phrase" id="phrase">
+        <div class="container"></div>
+      </section>
+      <section class="why" id="why"><div class="container"></div></section>
+      <section class="companies" id="companies">
+        <div class="container"></div>
+      </section>
+      <section class="subscribe" id="subscribe">
+        <div class="container"></div>
+      </section>
+    </main>
+    <footer><div class="container"></div></footer>
+  </body>
+</html>
