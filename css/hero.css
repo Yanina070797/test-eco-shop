@@ -1,0 +1,93 @@
+.hero .hero-image {
+    display: none;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7),
+            rgba(255, 255, 255, 0.7)), url(../images/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 40px;
+}
+
+.hero .left-block {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hero .hero-title {
+    font-family: "Libre Baskerville", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #333;
+}
+
+.hero .hero-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.42857;
+    text-align: center;
+    color: #666;
+    max-width: 295px;
+    margin: 0 auto;
+}
+
+.hero .hero-learn-more-button {
+    border-radius: 40px;
+    background: #658c4a;
+    width: 125px;
+    height: 44px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.42857;
+    text-align: center;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1440px) {
+    .hero .hero-image {
+        display: block;
+    }
+
+    .hero {
+        background: #fff;
+        padding: 0;
+    }
+
+    .hero .container-hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hero .hero-title {
+        font-size: 56px;
+        text-align: left;
+        max-width: 560px;
+    }
+
+    .hero .hero-text {
+        font-size: 20px;
+        line-height: 1.4;
+        text-align: left;
+        max-width: 560px;
+    }
+
+    .hero .hero-learn-more-button {
+        width: 158px;
+        height: 52px;
+        font-size: 20px;
+        line-height: 1.4;
+        display: block;
+        margin: 0;
+    }
+
+    .hero .left-block {
+        padding: 80px 40px 80px 120px;
+    }
+}
