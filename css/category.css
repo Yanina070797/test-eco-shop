@@ -1,6 +1,8 @@
 .category .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 16px;
     padding: 24px 0;
 }
@@ -8,12 +10,16 @@
 .category .catalog-middle-box-desktop {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 16px;
 }
 
 .category .bedding-and-accesories-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 16px;
 }
 
