@@ -79,7 +79,12 @@
     }
 
     .new-arrival .ahead-button-svg {
+        fill: #999;
+    }
+
+    .new-arrival .is-active-svg {
         fill: #333;
+
     }
 
     .new-arrival {
@@ -150,14 +155,19 @@
         align-items: center;
     }
 
+
     .new-arrival .ahead-button {
-        background-color: #e7cec0;
+        background-color: #e6e6e6;
         border-radius: 40px;
         width: 40px;
         height: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .new-arrival .is-active {
+        background-color: #e7cec0;
     }
 
     .new-arrival .arrival-item {
