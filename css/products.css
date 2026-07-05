@@ -1,0 +1,111 @@
+.products {
+    background-color: #ffefe5;
+    padding: 40px 0;
+}
+
+.products .products-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.products .products-item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc((100% - 16px) / 2);
+}
+
+.products .products-image {
+    width: 164px;
+    height: 164px;
+    border-radius: 8px;
+
+}
+
+.products .products-title {
+    font-family: "Libre Baskerville", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 8px;
+    max-width: 344px;
+    margin: 0 auto;
+}
+
+.products .products-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.42857;
+    text-align: center;
+    color: #666;
+    margin-bottom: 24px;
+}
+
+.products .products-name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.products .products-new-price {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33333;
+    color: #658c4a;
+}
+
+.products .products-old-price {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33333;
+    text-decoration: line-through;
+    color: #999;
+}
+
+@media screen and (min-width:1440px) {
+    .products .products-list {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .products .products-item {
+        flex-basis: calc((100% - 72px) / 4);
+    }
+
+    .products .products-image {
+        width: 312px;
+        height: 312px;
+    }
+
+    .products .products-title {
+        font-size: 48px;
+        max-width: 1320px;
+    }
+
+    .products .products-text {
+        font-size: 20px;
+        line-height: 1.4;
+        margin-bottom: 40px;
+    }
+
+    .products .products-name {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .products .products-new-price {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .products .products-old-price {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
