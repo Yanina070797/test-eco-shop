@@ -1,0 +1,48 @@
+.phrase {
+    background-image: linear-gradient(rgba(101, 140, 74, 0.9), rgba(101, 140, 74, 0.9)), url(../images/phrase-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+@media (min-resolution: 192dpi) {
+    .phrase {
+        background-image: linear-gradient(rgba(101, 140, 74, 0.9), rgba(101, 140, 74, 0.9)), url(../images/phrase-bg@2.png);
+    }
+}
+
+.phrase .phrase-text {
+    font-family: "Libre Baskerville", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.4;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.phrase .phrase-svg {
+    display: block;
+    margin: 0 auto;
+    width: 298px;
+    height: 40px;
+}
+
+@media screen and (min-width:1440px) {
+
+    .phrase {
+        padding: 120px 0;
+    }
+
+    .phrase .phrase-text {
+        font-weight: 700;
+        font-size: 32px;
+        margin-bottom: 80px;
+    }
+
+    .phrase .phrase-svg {
+        width: 444px;
+        height: 60px;
+    }
+}

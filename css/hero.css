@@ -49,6 +49,13 @@
     margin: 0 auto;
 }
 
+.hero .hero-learn-more-button:hover, .hero .hero-learn-more-button:focus {
+    background-color: #e7cec0;
+    color: #658c4a;
+
+}
+
+
 @media screen and (min-width: 1440px) {
     .hero .hero-image {
         display: block;

@@ -1,0 +1,110 @@
+.why {
+    padding: 80px 0;
+}
+
+.why .container {
+    position: relative;
+
+}
+
+.why .why-title-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 64px;
+    height: 22px;
+    transform: translate(47px, -7px);
+}
+
+.why .why-title {
+    font-family: "Libre Baskerville", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 24px;
+}
+
+.why .why-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 24px;
+    justify-content: center;
+}
+
+.why .why-item {
+    flex-basis: calc((100% - 16px) / 2);
+}
+
+.why .why-list-svg {
+    width: 32px;
+    height: 32px;
+    fill: #658c4a;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.why .why-list-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.why .why-list-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #666;
+}
+
+@media screen and (min-width:1440px) {
+
+    .why {
+        padding: 160px 0;
+    }
+
+    .why .why-title-svg {
+        width: 161px;
+        height: 56px;
+        transform: translate(380px, -12px);
+    }
+
+    .why .why-title {
+        font-weight: 700;
+        font-size: 48px;
+        color: #658c4a;
+        margin-bottom: 40px;
+    }
+
+    .why .why-list {
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+
+    .why .why-item {
+        flex-basis: calc((100% - 72px) / 4);
+    }
+
+    .why .why-list-svg {
+        width: 60px;
+        height: 60px;
+        fill: #999;
+        margin-bottom: 16px;
+
+    }
+
+    .why .why-list-title {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .why .why-list-text {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+}

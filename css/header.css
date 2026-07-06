@@ -78,6 +78,15 @@
         padding: 24px 16px;
     }
 
+    .header .nav-item:hover, .header .nav-item:focus {
+        background-color: #658c4a;
+    }
+
+    .header .nav-item:hover .nav-link, .header .nav-item:focus .nav-link {
+        color: #fff;
+    }
+
+
     .header .nav-link {
         font-weight: 600;
         font-size: 16px;

@@ -72,6 +72,11 @@
 
 }
 
+.new-arrival .arrival-see-more-button:hover, .new-arrival .arrival-see-more-button:focus {
+    background-color: #e7cec0;
+    color: #658c4a;
+}
+
 @media screen and (min-width:1440px) {
     .new-arrival .back-button-svg {
         fill: #999;

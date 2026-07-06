@@ -27,6 +27,10 @@
     position: relative;
 }
 
+.category .image-title-container:hover .catalogy-title, .category .image-title-container:focus .catalogy-title {
+    background-color: #658c4a;
+}
+
 .category .catalogy-title {
     position: absolute;
     bottom: 0;
