@@ -1,0 +1,52 @@
+.floatting-buttons {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.floatting-buttons .comment-button {
+    background: #658c4a;
+    border-radius: 8px 8px 0 8px;
+    width: 48px;
+    height: 48px;
+    position: relative;
+
+}
+
+.floatting-buttons .comment-button-svg {
+    fill: #fff;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(50%, 50%);
+}
+
+.floatting-buttons .discount-button {
+    display: none;
+}
+
+@media (min-width:1440px) {
+    .floatting-buttons .discount-button {
+        display: flex;
+        background: #658c4a;
+        border-radius: 8px 8px 0 8px;
+        width: 48px;
+        height: 48px;
+        position: relative;
+    }
+
+    .floatting-buttons .discount-button-svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(50%, 50%);
+        fill: #fff;
+        width: 24px;
+        height: 24px;
+    }
+}
