@@ -34,3 +34,11 @@ backButton.addEventListener("click", () => {
   backButtonSVG.classList.remove("is-active-svg");
   aheadButtonSVG.classList.add("is-active-svg");
 });
+
+//Burger Menu
+const burgerMenuButton = document.querySelector(".burger-menu-button");
+const navigationBurgerMenu = document.querySelector(".navigation-burger-menu");
+
+burgerMenuButton.addEventListener("click", () => {
+  navigationBurgerMenu.classList.toggle("is-open");
+});

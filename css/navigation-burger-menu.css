@@ -1,0 +1,28 @@
+@media screen and (min-width:1440px) {
+
+    .navigation-burger-menu {
+        display: none;
+    }
+}
+
+.navigation-burger-menu .nav-list-burger-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 16px 0;
+}
+
+.navigation-burger-menu .nav-link-burger-menu {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33333;
+    color: #262626;
+}
+
+.navigation-burger-menu {
+    display: none;
+}
+
+.navigation-burger-menu.is-open {
+    display: block;
+}
